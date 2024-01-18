@@ -39,7 +39,7 @@ void k_push(stack_t **head, unsigned int counter)
 	}
 	n = atoi(bus.arg);
 	if (bus.lifi == 0)
-		addnode(head, n);
+		k_addnode(head, n);
 	else
 		addqueue(head, n);
 }
