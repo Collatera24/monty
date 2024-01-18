@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 		counter++;
 		if (read_line > 0)
 		{
-			execle(content, &stack, counter, file);
+			k_exec(content, &stack, counter, file);
 		}
 		free_stack(stack);
 		fclose(file);
